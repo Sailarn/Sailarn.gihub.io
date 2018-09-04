@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="img/logo/logo1.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/media.min.css">
+	<title>Тис</title>
+</head>
+<body>
+	<div id="preloader">
+	  <div id="loader"></div>
+	</div> 
+	<header id="home">	
+			<nav class="navigation">
+				<div class="d-flex justify-content-between wrapperNav">
+					<div class="navLogo d-flex align-items-center">
+						<div class="logoImg">
+							<a href="#home" class="smooth-scroll"><img src="img/logo/logo1.png" alt="Logo"></a>
+						</div>
+						<div class="logoText">
+							<a href="#home" class="smooth-scroll">Ландшафтное бюро</a>
+						</div>
+					</div>
+					<div class="menu d-flex justify-content-center align-items-center" id="menu">
+						<div class="navLinks">
+							<a href="#about" class="smooth-scroll">О нас</a>
+							<a href="#services" class="smooth-scroll">Услуги</a>
+							<a href="#gallery" class="smooth-scroll">Зеленая лавка</a>
+							<a href="#blog" class="smooth-scroll">Блог</a>
+							<a href="#contacts" class="smooth-scroll">Контакты</a>
+						</div>
+						<div class="navMobile d-flex justify-content-center align-items-center">
+							<img src="img/icon/phone.png" alt="Phone">
+							<a href="tel:(067) 519 91 18">(067) 519 91 18</a>
+						</div>
+					</div>
+				</div>
+			</nav>		
+			<section id="firstSlider" class="firstSlider d-flex justify-content-center align-items-center">
+				<div class="mainSliderContainer">
+					<div class="mainSliderItem d-flex flex-column justify-content-center align-items-center">
+						<img src="img/sliderFirst/TopItem.png" alt="Top">
+						<p>Ландшафтный дизайн <br>
+						в Одессе</p>
+					</div>
+					<div class="mainSliderItem d-flex flex-column justify-content-center align-items-center">
+						<img src="img/sliderFirst/TopItem.png" alt="Top">
+						<p>Ландшафтный дизайн <br>
+						в Киеве</p>
+					</div>
+					<div class="mainSliderItem d-flex flex-column justify-content-center align-items-center">
+						<img src="img/sliderFirst/TopItem.png" alt="Top">
+						<p>Ландшафтный дизайн
+						в Харькове</p>
+					</div>
+				</div>
+			</section>
+	</header>
+	<main>
+		<aside class="callback d-flex align-items-center" id="callback">
+				<div class="callbackImage">
+					<img src="img/icons/call back_aside.svg" alt="call">
+				</div>
+				<form action="javascript:void(null);" method="post" onsubmit="callback2()" id="callbackForm" class="d-flex flex-column-reverse">
+					<input type="text" name="mobile" id="phone" required>
+					<button id="sent" type="submit"><img src="img/icons/right-arrow-gr.svg" alt=""></button>
+					<label for="mobile" id="callLabel">Телефон</label>
+				</form>
+			</aside>
+		<section id="features" class="features">
+			<div class="parallaxContainer">
+				<div class="leftParallax">
+					<div class="rellax">
+						<img src="img/parallax/parallax05.png" alt="">
+					</div>
+				</div>
+				<div class="rightParallax">
+					<div class="rellax">
+						<img src="img/parallax/parallax05.png" alt="" style="transform: rotate(100deg);">
+					</div>
+				</div>
+			</div>
+			<div class="featuresContainer d-flex justify-content-center flex-wrap">
+				<div class="featureItem">
+					<img src="img/icons/advantage1.svg" alt="FeatureOne">
+					<p>Индивидуальный
+					подход</p>
+				</div>
+				<div class="featureItem">
+					<img src="img/icons/advantage3.svg" alt="FeatureOne">
+					<p>Гарантия
+					обслуживания</p>
+				</div>
+				<div class="featureItem">
+					<img src="img/icons/advantage3.svg" alt="FeatureOne">
+					<p>1 бесплатная
+					консультация</p>
+				</div>
+				<div class="featureItem">
+					<img src="img/icons/advantage4.svg" alt="FeatureOne">
+					<p>Бонусы
+					клиентам</p>
+				</div>
+			</div>
+		</section>
+		<section id="services">
+			<div class="parallaxContainer2">
+				<div class="leftParallax">
+					<div class="rellax" data-rellax-speed="0.5" data-rellax-percentage="0.5">
+						<img src="img/parallax/parallax04.png" alt="">
+					</div>
+					<div class="rellax" data-rellax-percentage="0.5">
+						<img src="img/parallax/parallax01.png" alt="">
+					</div>
+					<div class="rellax" data-rellax-percentage="0">
+						<img src="img/parallax/parallax01.png" alt="" style="transform: rotate(45deg);">
+					</div>
+					<div class="rellax" data-rellax-percentage="-1">
+						<img src="img/parallax/parallax01.png" alt="" style="transform: rotate(-45deg);">
+					</div>
+				</div>
+				<div class="rightParallax">
+					<div class="rellax" data-rellax-percentage="3">
+						<img src="img/parallax/parallax01.png" alt="">
+					</div>
+					<div class="rellax" data-rellax-percentage="2">
+						<img src="img/parallax/parallax06.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="wrapper">
+				<h1>наши услуги</h1>
+				<div class="servicesContainer d-flex justify-content-center align-items-center flex-wrap wow slideInRight">
+					<a href="#" class="servicesItem">
+						<div>
+							<img src="img/pictures/service/1.png" alt="ItemServ">
+							<p>Ландшафтное
+							проектирование</p>
+						</div>
+					</a>
+					<a href="#" class="servicesItem">
+						<div>
+							<img src="img/pictures/service/2.png" alt="ItemServ">
+							<p>Ландшафтное
+							проектирование</p>
+						</div>
+					</a>
+					<a href="#" class="servicesItem">
+						<div>
+							<img src="img/pictures/service/3.png" alt="ItemServ">
+							<p>Ландшафтное
+							проектирование</p>
+						</div>
+					</a>
+					<a href="#" class="servicesItem">
+						<div>
+							<img src="img/pictures/service/4.png" alt="ItemServ">
+							<p>Ландшафтное
+							проектирование</p>
+						</div>
+					</a>
+					<a href="#" class="servicesItem">
+						<div>
+							<img src="img/pictures/service/5.png" alt="ItemServ">
+							<p>Ландшафтное
+							проектирование</p>
+						</div>
+					</a>
+					<a href="#" class="servicesItem">
+						<div>
+							<img src="img/pictures/service/6.png" alt="ItemServ">
+							<p>Ландшафтное
+							проектирование</p>
+						</div>
+					</a>
+					<a href="#" class="servicesItem">
+						<div>
+							<img src="img/pictures/service/7.png" alt="ItemServ">
+							<p>Ландшафтное
+							проектирование</p>
+						</div>
+					</a>
+					<a href="#" class="servicesItem">
+						<div>
+							<img src="img/pictures/service/8.png" alt="ItemServ">
+							<p>Ландшафтное
+							проектирование</p>
+						</div>
+					</a>
+					<a href="#" class="servicesItem">
+						<div>
+							<img src="img/pictures/service/9.png" alt="ItemServ">
+							<p>Ландшафтное
+							проектирование</p>
+						</div>
+					</a>
+					<a href="#" class="servicesItem">
+						<div>
+							<img src="img/pictures/service/10.png" alt="ItemServ">
+							<p>Ландшафтное
+							проектирование</p>
+						</div>
+					</a>
+					<a href="#" class="servicesItem">
+						<div>
+							<img src="img/pictures/service/11.png" alt="ItemServ">
+							<p>Ландшафтное
+							проектирование</p>
+						</div>
+					</a>
+					<a href="#" class="servicesItem">
+						<div>
+							<img src="img/pictures/service/12.png" alt="ItemServ">
+							<p>Ландшафтное
+							проектирование</p>
+						</div>
+					</a>
+					<a href="#" class="servicesItem">
+						<div>
+							<img src="img/pictures/service/13.png" alt="ItemServ">
+							<p>Ландшафтное
+							проектирование</p>
+						</div>
+					</a>
+					<a href="#" class="servicesItem">
+						<div>
+							<img src="img/pictures/service/14.png" alt="ItemServ">
+							<p>Ландшафтное
+							проектирование</p>
+						</div>
+					</a>
+					<a href="#" class="servicesItem">
+						<div>
+							<img src="img/pictures/service/15.png" alt="ItemServ">
+							<p>Ландшафтное
+							проектирование</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section id="about" class="about">
+			<div class="wrapper wow slideInLeft">
+				<h1>о Студии “Тис” </h1>
+				<div class="aboutCarouselContainer d-flex justify-content-center">
+					<div class="aboutCarouselItem d-flex justify-content-center">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit illum corporis quas atque reprehenderit tempora odio, suscipit, veniam explicabo qui iure? Ab cupiditate culpa incidunt, vitae temporibus impedit atque quas ad veritatis! Nisi officia mollitia pariatur veritatis, cumque placeat voluptatem adipisci, magni quisquam fugit, nesciunt, eius necessitatibus tempore repellendus rerum.</p>
+					</div>
+					<div class="aboutCarouselItem d-flex justify-content-center">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit illum corporis quas atque reprehenderit tempora odio, suscipit, veniam explicabo qui iure? Ab cupiditate culpa incidunt, vitae temporibus impedit atque quas ad veritatis! Nisi officia mollitia pariatur veritatis, cumque placeat voluptatem adipisci, magni quisquam fugit, nesciunt, eius necessitatibus tempore repellendus rerum.</p>
+					</div>
+					<div class="aboutCarouselItem d-flex justify-content-center">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit illum corporis quas atque reprehenderit tempora odio, suscipit, veniam explicabo qui iure? Ab cupiditate culpa incidunt, vitae temporibus impedit atque quas ad veritatis! Nisi officia mollitia pariatur veritatis, cumque placeat voluptatem adipisci, magni quisquam fugit, nesciunt, eius necessitatibus tempore repellendus rerum.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="testimonials" class="testimonials">
+			<div class="parallaxContainer">
+				<div class="leftParallax">
+					<div class="rellax" data-rellax-speed="0.5" data-rellax-percentage="-9">
+						<img src="img/parallax/parallax01.png" alt="">
+					</div>
+					<div class="rellax" data-rellax-percentage="1.5">
+						<img src="img/parallax/parallax01.png" alt="">
+					</div>
+					<div class="rellax" data-rellax-percentage="1">
+						<img src="img/parallax/parallax03.png" alt="" style="transform: rotate(45deg);">
+					</div>
+					<div class="rellax" data-rellax-percentage="0">
+						<img src="img/parallax/parallax02.png" alt="" style="transform: rotate(-45deg);">
+					</div>
+				</div>
+				<div class="rightParallax">
+					<div class="rellax" data-rellax-percentage="7">
+						<img src="img/parallax/parallax01.png" alt="">
+					</div>
+					<div class="rellax" data-rellax-percentage="4.6">
+						<img src="img/parallax/parallax06.png" alt="">
+					</div>
+					<div class="rellax" data-rellax-percentage="4.5">
+						<img src="img/parallax/parallax07.png" alt="">
+					</div>
+					<div class="rellax" data-rellax-percentage="3.5">
+						<img src="img/parallax/parallax01.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="wrapper wow slideInRight">
+				<h1>отзывы клиентов</h1>
+				<div class="testimonialsSlider">
+					<div class="testimonial d-flex justify-content-center flex-column align-items-center">
+						<img src="img/pictures/review1.png" alt="">
+					</div>
+					<div class="testimonial d-flex justify-content-center flex-column align-items-center">
+						<img src="img/pictures/review3.png" alt="">
+					</div>
+					<div class="testimonial d-flex justify-content-center flex-column align-items-center">
+						<img src="img/pictures/review1.png" alt="">
+					</div>
+					<div class="testimonial d-flex justify-content-center flex-column align-items-center">
+						<img src="img/pictures/review3.png" alt="">
+					</div>
+				</div>
+				<div class="testimonialSlider2">
+					<div class="testimonialText d-flex justify-content-center flex-column align-items-center">
+						<h5>1Оказывается, в одессе 
+							таки есть ландшафтная студия!!</h5>
+						<p>Я обратился в Тис с уже привычным недовреием, пройдя столько раз  подобные обращения. Но ребята впечатлили меня своим професионализмом, качеством работы, знаниями, любовью к делу... </p>
+					</div>
+					<div class="testimonialText d-flex justify-content-center flex-column align-items-center">
+						<h5>2Оказывается, в одессе 
+							таки есть ландшафтная студия!!</h5>
+						<p>Я обратился в Тис с уже привычным недовреием, пройдя столько раз  подобные обращения. Но ребята впечатлили меня своим професионализмом, качеством работы, знаниями, любовью к делу... </p>
+					</div>
+					<div class="testimonialText d-flex justify-content-center flex-column align-items-center">
+						<h5>3Оказывается, в одессе 
+							таки есть ландшафтная студия!!</h5>
+						<p>Я обратился в Тис с уже привычным недовреием, пройдя столько раз  подобные обращения. Но ребята впечатлили меня своим професионализмом, качеством работы, знаниями, любовью к делу... </p>
+					</div>
+					<div class="testimonialText d-flex justify-content-center flex-column align-items-center">
+						<h5>4Оказывается, в одессе 
+							таки есть ландшафтная студия!!</h5>
+						<p>Я обратился в Тис с уже привычным недовреием, пройдя столько раз  подобные обращения. Но ребята впечатлили меня своим професионализмом, качеством работы, знаниями, любовью к делу... </p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="gallery">
+			<div class="wrapper">
+				<h1>ГАЛЕРЕЯ</h1>
+			</div>
+				<div class="galleryContainer wow zoomIn">
+					<div class="galleryItem">
+						<a data-fancybox="gallery" href="img/pictures/photo1.jpg"><img src="img/pictures/photo1.jpg" alt="1"></a>
+					</div>
+					<div class="galleryItem">
+						<a data-fancybox="gallery" href="img/pictures/photo2.jpg"><img src="img/pictures/photo2.jpg" alt="2"></a>
+					</div>
+					<div class="galleryItem">
+						<a data-fancybox="gallery" href="img/pictures/photo3.jpg"><img src="img/pictures/photo3.jpg" alt="3"></a>
+					</div>
+					<div class="galleryItem">
+						<a data-fancybox="gallery" href="img/pictures/photo4.jpg"><img src="img/pictures/photo4.jpg" alt="4"></a>
+					</div>
+				</div>
+		</section>
+		<section id="blog"> 
+			<div class="parallaxContainer">
+				<div class="leftParallax">
+					<div class="rellax" data-rellax-speed="0.5" data-rellax-percentage="3">
+						<img src="img/parallax/parallax01.png" alt="">
+					</div>
+					<div class="rellax" data-rellax-percentage="-1">
+						<img src="img/parallax/parallax02.png" alt="">
+					</div>
+					<div class="rellax" data-rellax-percentage="0" data-rellax-speed="0">
+						<img src="img/parallax/parallax01.png" alt="" style="transform: rotate(45deg);">
+					</div>
+				</div>
+				<div class="rightParallax">
+					<div class="rellax" data-rellax-percentage="2">
+						<img src="img/parallax/parallax02.png" alt="">
+					</div>
+					<div class="rellax" data-rellax-percentage="0">
+						<img src="img/parallax/parallax01.png" alt="">
+					</div>
+					<div class="rellax" data-rellax-percentage="-2">
+						<img src="img/parallax/parallax04.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="wrapper wow bounceInLeft" data-wow-delay="0.3s">
+				<h1>Полезные статьи</h1>
+				<div class="blogContainer d-flex justify-content-start flex-wrap">
+					<div class="blogItem">
+						<img src="img/pictures/article1.jpg" alt="1">
+						<div class="blogText">
+							<h3>Человек или природа</h3>
+							<p>Одним из первостепенных этапов, позволяющих создать запоминающееся ландшафтное проектирование, является посадка газонов. Подчеркнуть естественное обаяние сада ...</p>
+						</div>
+					</div>
+					<div class="blogItem">
+						<img src="img/pictures/article2.jpg" alt="1">
+						<div class="blogText">
+							<h3>Человек или природа</h3>
+							<p>Одним из первостепенных этапов, позволяющих создать запоминающееся ландшафтное проектирование, является посадка газонов. Подчеркнуть естественное обаяние сада ...</p>
+						</div>
+					</div>
+					<div class="blogItem">
+						<img src="img/pictures/article3.jpg" alt="1">
+						<div class="blogText">
+							<h3>Человек или природа</h3>
+							<p>Одним из первостепенных этапов, позволяющих создать запоминающееся ландшафтное проектирование, является посадка газонов. Подчеркнуть естественное обаяние сада ...</p>
+						</div>
+					</div>
+					<div class="blogItem">
+						<img src="img/pictures/article4.jpg" alt="1">
+						<div class="blogText">
+							<h3>Человек или природа</h3>
+							<p>Одним из первостепенных этапов, позволяющих создать запоминающееся ландшафтное проектирование, является посадка газонов. Подчеркнуть естественное обаяние сада ... это ... 
+							также выступают подходящим фоном для архитектурных построек и более крупной растительности. Газоны для сада играют не только декоративную, но и санитарно-гигиеническую роль.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contacts" class="contacts">
+			<div class="wrapper">
+				<h1>Контакты</h1>
+				<div class="contactsFormMap d-flex justify-content-between">
+					<div class="contactsLeft wow slideInLeft">
+						<div class="contactsInfo">
+							<p>Одесса, Большая Арнаутская, 15, офис 37</p>
+							<p>(067) 519 91 18, (048) 789 21 18</p>
+							<p>tis_odessa@gmail.com</p>
+						</div>
+						<form action="javascript:void(null);" onsubmit="call()" method="post" id="formx" class="d-flex justify-content-start flex-column align-items-start">
+							<h2>Напишите нам</h2>
+							<div class="nameInput d-flex flex-column-reverse">
+								<input type="text" name="name" placeholder="Имя" id="name" required>
+								<label for="name">Имя</label>
+							</div>
+							<div class="emailInput d-flex flex-column-reverse">
+								<input type="email" name="email" placeholder="Email" id="email" required>
+								<label for="email">Email</label>
+							</div>
+							<div class="telInput d-flex flex-column-reverse">
+								<input type="text" placeholder="Телефон" name="phone" id="formPhone" required>
+								<label for="formPhone">Телефон</label>
+							</div>
+							<div class="formMessage">
+								<textarea name="message" id="message" placeholder="Сообщение"></textarea>
+								<button type="submit" id="submit"><img src="img/icons/right-arrow-gr.svg" alt=""></button>
+							</div>
+							<div class="results animated">
+					        	<p>Заявка отправлена!</p>
+					        </div>
+						</form>
+					</div>
+					<div class="contactsRight wow slideInRight">
+						<div class="map" id="map"></div>
+						<div class="borderMap"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="wrapper d-flex justify-content-between align-items-end">
+				<div class="footerLogo">
+					<a href="#home" class="smooth-scroll"><img src="img/icons/logo_white.svg" alt="Logo"></a>
+				</div>
+				<div class="footerCol1 d-flex flex-column">
+					<a href="#blog" class="smooth-scroll">Блог</a>
+					<a href="#gallery" class="smooth-scroll">Галерея</a>
+				</div>
+				<div class="footerCol2 d-flex flex-column">
+					<a href="#testimonials" class="smooth-scroll">Отзывы</a>
+					<a href="#">Вопрос / Ответ</a>
+				</div>
+				<div class="footerCol3 d-flex flex-column">
+					<a href="#">Условия сотрудничества</a>
+					<a href="#">Прайс</a>
+				</div>
+				<div class="footerCol4 d-flex flex-column">
+					<p>Одесса,<br> Большая Арнаутская, 15, офис 37</p>
+					<span><a href="tel:(067) 519 91 18">(067) 519 91 18 </a><a href="tel:(048) 789 21 18">(048) 789 21 18</a></span>
+					<a href="mailto:tis_odessa@gmail.com ">tis_odessa@gmail.com</a>
+				</div>
+			</div>
+			<div class="footerSecondRow d-flex justify-content-center">
+				<div class="wrapperSecondRow d-flex justify-content-between">
+					<div class="secCol1 d-flex">
+						<p>Cайт разработан веб-студией <a href="#">Up-Site</a></p>
+						<p>(C) Тис2018</p>
+					</div>
+					<div class="secCol2 d-flex">
+						<a href="#"><img src="img/icons/facebook-logo.svg" alt="Social"></a>
+						<a href="#"><img src="img/icons/vk-social-network-logo.svg" alt="Social"></a>
+						<a href="#"><img src="img/icons/instagram-social-network-logo-of-photo-camera.svg" alt="Social"></a>
+						<a href="#"><img src="img/icons/youtube.svg" alt="Social"></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</main>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/rellax.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/scripts.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfXMtNQ9WiZVSmJx8FI0EwzFKhyzwM6vg&callback=initMap"></script>
+</body>
+</html>
